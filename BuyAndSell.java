@@ -12,7 +12,7 @@ public class BuyAndSell {
          tempmax=arr[i];
      maxtillnow[i]=tempmax;
  }
-        System.out.println(Arrays.toString(maxtillnow));
+       
  int maxprofit=0;
  for(int i=0;i<arr.length;i++){
      maxprofit=Math.max(maxprofit,maxtillnow[i]-arr[i]);
